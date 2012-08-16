@@ -1,4 +1,6 @@
 Ext.application({
+    controllers: ["Main"],
+
     name: 'GS',
 
     requires: [
