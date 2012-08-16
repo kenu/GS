@@ -12,6 +12,9 @@ Ext.define("GS.view.Main", {
             	xtype: 'homepanel'
             },
             {
+            	xtype: 'blog'
+            },
+            {
             	xtype: 'contactform'
             }
         ]

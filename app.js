@@ -5,7 +5,7 @@ Ext.application({
         'Ext.MessageBox'
     ],
 
-    views: ['Main', 'Home', 'Contact'],
+    views: ['Main', 'Home', 'Contact', 'Blog'],
 
     icon: {
         '57': 'resources/icons/Icon.png',
