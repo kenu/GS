@@ -2,6 +2,11 @@ Ext.define('GS.view.Blog', {
 	extend: 'Ext.navigation.View',
 	xtype: 'blog',
 	
+	requires: [
+	    'Ext.dataview.List',
+	    'Ext.data.proxy.JsonP',
+	    'Ext.data.Store'
+	],
 	config: {
 		title: 'Blog',
 		iconCls: 'star',
@@ -9,6 +14,7 @@ Ext.define('GS.view.Blog', {
 		items: {
 			xtype: 'list',
 			itemTpl: '{title}',
+			title: 'Recent Posts',
 			
 			store: {
 				autoLoad: true,
