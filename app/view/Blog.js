@@ -22,7 +22,7 @@ Ext.define('GS.view.Blog', {
 				
 				proxy: {
 					type: 'jsonp',
-					url: 'https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&q=http://feeds.feedburner.com/SenchaBlog',
+					url: 'https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=7&q=http://www.okjsp.pe.kr/rss/okjsp-rss2.jsp?bbs=ajax',
 					
 					reader: {
 						type: 'json',
